@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedArbor.Prueba.Application.DTO\RedArbor.Prueba.Application.DTO.csproj" />
+    <ProjectReference Include="..\RedArbor.Prueba.Domain.Entity\RedArbor.Prueba.Domain.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

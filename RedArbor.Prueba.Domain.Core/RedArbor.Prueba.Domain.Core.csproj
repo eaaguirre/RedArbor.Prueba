@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedArbor.Prueba.Domain.Entity\RedArbor.Prueba.Domain.Entity.csproj" />
+    <ProjectReference Include="..\RedArbor.Prueba.Domain.Interface\RedArbor.Prueba.Domain.Interface.csproj" />
+    <ProjectReference Include="..\RedArbor.Prueba.Infraestructure.Interface\RedArbor.Prueba.Infraestructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

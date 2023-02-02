@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedArbor.Prueba.Application.DTO\RedArbor.Prueba.Application.DTO.csproj" />
+    <ProjectReference Include="..\RedArbor.Prueba.Application.Interface\RedArbor.Prueba.Application.Interface.csproj" />
+    <ProjectReference Include="..\RedArbor.Prueba.Application.Validator\RedArbor.Prueba.Application.Validator.csproj" />
+    <ProjectReference Include="..\RedArbor.Prueba.Domain.Entity\RedArbor.Prueba.Domain.Entity.csproj" />
+    <ProjectReference Include="..\RedArbor.Prueba.Domain.Interface\RedArbor.Prueba.Domain.Interface.csproj" />
+    <ProjectReference Include="..\RedArbor.Prueba.Transversal.Common\RedArbor.Prueba.Crosscutting.Common.csproj" />
+  </ItemGroup>
+
+</Project>
