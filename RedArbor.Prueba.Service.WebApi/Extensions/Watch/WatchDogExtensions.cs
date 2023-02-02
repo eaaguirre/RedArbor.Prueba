@@ -7,8 +7,8 @@ namespace RedArbor.Prueba.Service.WebApi.Extensions.Watch
         {
             services.AddWatchDogServices(opt =>
             {;
-                //opt.SetExternalDbConnString = configuration.GetConnectionString("RedArborConnection");
-                //opt.DbDriverOption = WatchDog.src.Enums.WatchDogDbDriverEnum.MSSQL;
+                opt.SetExternalDbConnString = configuration.GetConnectionString("RedArborConnection");
+                opt.DbDriverOption = WatchDog.src.Enums.WatchDogDbDriverEnum.MSSQL;
                 opt.IsAutoClear = true;
                 opt.ClearTimeSchedule = WatchDog.src.Enums.WatchDogAutoClearScheduleEnum.Daily;
             });

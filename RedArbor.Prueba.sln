@@ -43,7 +43,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{AC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArbor.Prueba.Test", "RedArbor.Prueba.Test\RedArbor.Prueba.Test.csproj", "{6D51871A-65A5-4315-AFEF-06D82EA3D68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedArbor.Prueba.Crosscutting.Logging", "RedArbor.Prueba.Crosscutting.Logging\RedArbor.Prueba.Crosscutting.Logging.csproj", "{A72BDF8E-27A2-43DE-80E8-DDACAAD9DF3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedArbor.Prueba.Crosscutting.Logging", "RedArbor.Prueba.Crosscutting.Logging\RedArbor.Prueba.Crosscutting.Logging.csproj", "{A72BDF8E-27A2-43DE-80E8-DDACAAD9DF3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{FC60B72C-763D-4DB5-922A-C1CAD87B9765}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\edinson.aguirre.AV28268\Documents\Database.sql = C:\Users\edinson.aguirre.AV28268\Documents\Database.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
